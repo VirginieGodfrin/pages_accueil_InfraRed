@@ -1,0 +1,74 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5">
+	<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/accueil2.css">
+
+	<title>infra red acceuil 1</title>
+	<!-- Pushy CSS -->
+    <link rel="stylesheet" href="css/pushy.css">
+
+</head>
+<body><!-- Pushy Menu -->
+	<nav class="pushy pushy-left">
+	    <ul>
+	        <!-- Submenu -->
+	        <li class="pushy-submenu">
+	            <a href="#">Submenu</a>
+	            <ul>
+	                <li class="pushy-link"><a href="#">Item 1</a></li>
+	                <li class="pushy-link"><a href="#">Item 2</a></li>
+	                <li class="pushy-link"><a href="#">Item 3</a></li>
+	            </ul>
+	        </li>
+	        <li class="pushy-link"><a href="#">Item 1</a></li>
+	        <li class="pushy-link"><a href="#">Item 2</a></li>
+	    </ul>
+	</nav>
+	<!-- Site Overlay -->
+	<div class="site-overlay"></div>
+	<!-- Your Content -->
+	<div id="container">
+		<!-- Menu Button -->
+	    <div id="menuHamburger" class="menu-btn">&#9776;</div>
+	</div>
+
+	<header class="header">
+		<img class="logo" src="img/logoInfraRedTrans.png" alt="logo, infraRed">
+	</header>
+
+	<section class="section_para"> 
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias natus illum debitis minima, doloribus, deleniti dolore qui quod voluptas ducimus cumque tempore corporis error, unde repudiandae maxime, temporibus sequi praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat excepturi mollitia, facere quo animi sunt temporibus consequatur tenetur ducimus. Cumque dolore magni voluptates praesentium molestiae sint. Nisi, voluptates minus earum.</p>
+	</section>
+
+	<section class="section_poly">
+		<img  class="logo" src="img/logoInfraRedTrans.png" alt="logo, infraRed">
+	</section>
+
+	<footer>
+		<nav>
+			<ul class="menu_footer">
+				<li><a href="#"><img src="img/iconeOrdi.png" alt="logo, web" width="50px"></a></li>
+				<li><a href="#"><img src="img/iconePhone.png" alt="logo, phone" width="50px"></a></li>
+				<li><a href="#"><img src="img/iconeMail.png" alt="logo, mail" width="50px"></a></li>
+				<li><a href="#"><img src="img/iconeInfo.png" alt="logo, info" width="50px"></a></li>
+			</ul>
+		</nav>
+	</footer>
+		<script src="jQuery/jQuery.js"></script>
+		<script src="js/pushy.min.js"></script>
+		<script>
+			$(document).ready(function(){
+	  			$(window).scroll(function() {
+	    			if ($(document).scrollTop() > 50) {
+	  						$("#menuHamburger").addClass("menu-move");
+	    			} else {
+	      				$("#menuHamburger").removeClass("menu-move");
+	    			}
+	  			});
+			});
+		</script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul li {
+    list-style:none;
+    list-style-type: none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+a:link {
+color: #fff;
+text-decoration: none;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+header, footer, section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    display:none;
+}
+
+.titre{
+    background: url("../img/titreBackground.jpg") no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: 1100px;
+    text-align: center;
+    display: flex;
+}
+
+.titre img{
+    width: 30%;
+    margin: auto;
+}
+
+.box_rouge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d81f1f;
+    height: auto;
+    line-height: 1.5em;
+    color: #fff;
+    padding : 250px 0;
+}
+
+.box_rouge h2{
+    text-align: center;
+    font-family: inherit;
+    font-size: 2em;
+    padding-bottom: 3%;
+}
+.box_rouge p {
+    width: 50%;
+    text-align: justify;
+
+}
+
+.bare_blanche{
+    width:50px;
+    height: 3px;
+    background-color: #fff;
+    margin: 30px 0;
+}
+
+.section_logo{
+    width:20%;
+    margin: 20px 0 40px 20px;
+}
+.soixante{
+    width:120px;
+    height: 120px;
+}
+.section_div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    color: #d81f1f;
+}
+
+.section_div p{
+    padding: 3% 25% 3% 3%;
+ }
+
+.contact{
+    display: column;
+    flex-direction: row;
+    background-color: red;
+ }
+
+.contact>img{
+    width:20px;
+
+}
+
+footer{
+    background: url("../img/footerBackground.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    height: 300px;
+}
+
+.couriel{
+    padding: 100px 25% 0px 25%;
+}
+
+.couriel ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.couriel li{
+    padding-bottom: 10px;
+}
+
+.couriel ul a{
+    vertical-align: top;
+}
+
+.postal{
+    width: 200px;
+    text-align: right;
+    padding-bottom: 10px;
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+

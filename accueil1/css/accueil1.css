@@ -1,0 +1,279 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    background: url("../img/backgroungTransAccueil.png") no-repeat center fixed;
+    z-index: 3;
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul li {
+    list-style:none;
+    list-style-type: none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+a:link {
+color: #000;
+text-decoration: none;
+}
+
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+header, footer, section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    display:none;
+}
+
+header{
+    background: url("../img/trianglesHeader.png") no-repeat center;
+    background-size: cover;
+}
+
+.menu1{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 10%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu1 li {
+    display: inline;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    padding: 0 10px 10px 10px;
+    transition-property: border-bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+  
+.menu1 li:hover, .menu1 li:active {
+    border-bottom: 3px solid #d81f1f;
+}
+
+.header_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 10%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu2li{
+    font-size: 14px;
+    padding: 30px 10px 10px 10px;
+    border-bottom: 3px solid #fff;
+    transition-property: border-bottom;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.menu2li:hover, .menu2li:active{
+    border-bottom: 3px solid #d81f1f;
+}
+
+.sectio2div{   
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top:9% ;
+    color: #d81f1f;
+}
+
+.section_3article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+.article_img_p{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+    opacity: 0.6;
+    width: 30%;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: step-start;
+    transition-delay: 0.1s;  
+}
+
+.article_img_p:hover, .article_img_p:active{
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.img_article{
+    margin: 0 auto;
+    padding: 50% 0 20% 0;
+}
+
+.section2div_red{
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.trapez { 
+    position: absolute;
+    left: 50%;
+    margin-left: -650px;
+    border-bottom: 200px solid #d81f1f; 
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent; 
+    width: 1200px; 
+}
+
+.text_white{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.block_relative{
+    background: url("../img/imgsectionArticle.png") no-repeat center;
+    position: relative;
+    width: 1500px;
+    height: 800px;
+    font-size: 18px; 
+}
+
+.block_absolu_p{
+    position: absolute;
+    top : 75px;
+    left: 30%;
+}
+
+.text1{
+    position: absolute;
+    top: 0px;
+    right: 20%;
+    width: 15%;    
+}
+
+.text2{
+    position: absolute;
+    top: 250px;
+    left: 42.5%;
+    width:15%;
+    color: #fff;
+}
+
+.text3{
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    width: 15%;
+}
+
+footer{
+    width: 1500px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+    color: #fff;
+    font-size: 0.5em;
+    line-height: 1.5em;
+    height: auto;
+    padding-top: 10px;
+}
+
+.couriel ul, .postal ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.couriel li, .postal li{
+    padding:0 0 10px 0;
+}
+
+.couriel ul a{
+    vertical-align: top;
+    color: #fff;
+}
+
+.postal{
+    width: 200px;
+    text-align: right;
+    padding-bottom: 10px;
+}
